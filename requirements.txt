@@ -2,4 +2,6 @@ flask
 numpy
 werkzeug
 cv2
-kerasgunicorn
+keras
+gunicorn
+opencv-python
