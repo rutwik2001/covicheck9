@@ -1,7 +1,5 @@
 flask
 numpy
 werkzeug
-sys
-os
 cv2
 kerasgunicorn
