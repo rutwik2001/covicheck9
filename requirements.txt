@@ -1,7 +1,6 @@
 flask
 numpy
 werkzeug
-cv2
 keras
 gunicorn
 opencv-python
