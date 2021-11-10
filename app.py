@@ -1,13 +1,13 @@
 from flask import Flask, render_template, request
 import numpy as np
-# from PIL import Image
+from PIL import Image
 from ctscan_images import *;
 from werkzeug.utils import secure_filename
-# import keras.models
-# import re
+import keras.models
+import re
 import sys 
 import os
-# import base64
+import base64
 import cv2
 sys.path.append(os.path.abspath("./model"))
 from load import * 
@@ -59,4 +59,4 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True, port=8000)
